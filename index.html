@@ -106,7 +106,16 @@
         <img src="./images/10.webp" alt="">
       </div>
 
+      <h2 class="index-video-gallery">Video Gallery</h2>
+      <div class="video-item">
+        <iframe width="720" height="560" src="https://www.youtube.com/embed/H-3n-g27u7Y?si=eg1wkikW-BTYMnZG"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
     </section>
+
 
     <a href="#" class="whatsapp-absolute"><img src="./images/whatsApp icons/icons8-whatsapp-96.svg" alt=""></a>
     <section id="about" class="about page-section">
@@ -168,37 +177,37 @@
     <section id="testimonials" class="testimonials-section">
       <h2>Testimonials</h2>
       <section class="reviews-section">
-          <h3>What Clients Say About Us</h3>
-          <p>Real reviews from Google</p>
-          <div class="reviews-grid">
-              <!-- Embed Review 1: Paste your first copied code here -->
-              <div class="google-review">
-                  <!-- Example placeholder; replace with actual Google embed code -->
-                  <blockquote class="g-review" data-review-id="gp:AOzeeW..."> <!-- Shortened; use yours -->
-                      Loading review...
-                  </blockquote>
-              </div>
-              
-              <!-- Embed Review 2: Paste your second copied code here -->
-              <div class="google-review">
-                  <blockquote class="g-review" data-review-id="gp:AnotherID...">
-                      Loading review...
-                  </blockquote>
-              </div>
-              
-              <!-- Add more as needed -->
+        <h3>What Clients Say About Us</h3>
+        <p>Real reviews from Google</p>
+        <div class="reviews-grid">
+          <!-- Embed Review 1: Paste your first copied code here -->
+          <div class="google-review">
+            <!-- Example placeholder; replace with actual Google embed code -->
+            <blockquote class="g-review" data-review-id="gp:AOzeeW..."> <!-- Shortened; use yours -->
+              Loading review...
+            </blockquote>
           </div>
+
+          <!-- Embed Review 2: Paste your second copied code here -->
+          <div class="google-review">
+            <blockquote class="g-review" data-review-id="gp:AnotherID...">
+              Loading review...
+            </blockquote>
+          </div>
+
+          <!-- Add more as needed -->
+        </div>
       </section>
 
       <!-- Google's Shared Script (load once at the bottom for all embeds) -->
       <script src="https://apis.google.com/js/platform.js" async defer></script>
       <script>
-          // Optional: Initialize if needed (Google handles auto-render)
-          gapi.load('rating', function() {
-              gapi.rating.render(document.querySelectorAll('.g-review'));
-          });
+        // Optional: Initialize if needed (Google handles auto-render)
+        gapi.load('rating', function () {
+          gapi.rating.render(document.querySelectorAll('.g-review'));
+        });
       </script>
-    
+
     </section>
   </main>
   <footer>
