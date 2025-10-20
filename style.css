@@ -644,7 +644,9 @@ p {
 
 .video-gallery-flex{
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
+
 .video-item {
   position: relative;
   flex: 1 1 auto;
