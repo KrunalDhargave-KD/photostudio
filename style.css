@@ -710,6 +710,12 @@ p {
   /* Gold stars */
 }
 
+@media (max-width: 600px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+
 
 
   @media (max-width: 992px) {
@@ -767,7 +773,6 @@ p {
     .our-services-container {
       padding: 1rem;
     }
-
 
     .our-work {
       padding: 1rem;
