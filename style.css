@@ -642,7 +642,7 @@ p {
     height: 100%;
 } */
 
-.video-gallery-flex{
+.video-gallery-flex {
   flex-wrap: wrap;
   margin-top: 2rem;
 }
@@ -654,7 +654,8 @@ p {
   aspect-ratio: 16/9;
   border-radius: 12px;
 }
-.video-item iframe{
+
+.video-item iframe {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -667,6 +668,7 @@ p {
 .index-video-gallery {
   margin-top: 3rem;
 }
+
 /* ---------------------------- */
 /* testimonials */
 /*  ---------------------------*/
@@ -730,38 +732,38 @@ p {
     }
   }
 
-    .hamburger {
-      display: block;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    .nav-links {
-      display: none;
-    }
+  .nav-links {
+    display: none;
+  }
 
-    .nav-links.active {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 42px;
-      left: 0;
-      width: 100%;
-      border-bottom-right-radius: 24px;
-      border-bottom-left-radius: 24px;
-      background-color: var(--surface-color);
-      padding: 1rem 0 2rem 0;
-      box-shadow: 0 10px 15px var(--shadow-color);
-    }
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    background-color: var(--surface-color);
+    padding: 1rem 0 2rem 0;
+    box-shadow: 0 10px 15px var(--shadow-color);
+  }
 
-    .nav-links.active li {
-      margin: .5rem 2rem;
-      text-align: center;
-    }
+  .nav-links.active li {
+    margin: .5rem 2rem;
+    text-align: center;
+  }
 
   @media (max-width: 768px) {
-  
+
 
     .service-page {
-      padding: 4rem 1rem 1rem 1rem;
+      padding: 4rem .2rem .2rem .2rem;
     }
 
     .btn {
@@ -773,11 +775,11 @@ p {
     }
 
     .our-services-container {
-      padding: 1.5rem;
+      padding: 1rem;
     }
 
     .our-work {
-      padding: 1.5rem;
+      padding: 1rem;
     }
 
     .package-category {
@@ -803,9 +805,7 @@ p {
         padding: 4rem 1.5rem;
       }
 
-      .service-page {
-        padding: 4rem .5rem .5rem .5rem;
-      }
+  
 
     }
 
