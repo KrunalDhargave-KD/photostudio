@@ -210,7 +210,7 @@ footer {
 }
 
 .our-services-card img {
-  height: 460px;
+  height: 428px;
   object-fit: cover;
 }
 
@@ -556,6 +556,27 @@ p {
   margin-right: 3rem;
 } */
 
+.owner-content {
+  box-shadow: 0 8px 25px var(--shadow-color);
+  border-radius: 12px;
+  padding: 2rem;
+  background-color: var(--surface-color);
+}
+
+.owner-image {
+  width: 250px;
+  height: 250px;
+  margin: 1rem auto;
+
+}
+
+.owner-image img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
 .page-section {
   padding: 3rem;
 }
@@ -674,9 +695,39 @@ p {
 /*  ---------------------------*/
 
 .testimonials-section {
-  max-width: 90rem;
+  /* max-width: 90rem; */
   margin: 0 auto;
 }
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background-color: var(--surface-color);
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 0 8px 25px var(--shadow-color);
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
 
 .reviews-section {
   margin: 40px 0;
@@ -726,34 +777,42 @@ p {
     .hero-content h1 {
       font-size: 3.5rem;
     }
+
+    .hamburger {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 42px;
+      left: 0;
+      width: 100%;
+      border-bottom-right-radius: 24px;
+      border-bottom-left-radius: 24px;
+      background-color: var(--surface-color);
+      padding: 1rem 0 2rem 0;
+      box-shadow: 0 10px 15px var(--shadow-color);
+    }
+
+    .nav-links.active li {
+      margin: .5rem 2rem;
+      text-align: center;
+    }
+
+    .testimonials-section {
+      padding: 4rem 1.5rem;
+    }
+
+  
   }
 
-  .hamburger {
-    display: block;
-  }
 
-  .nav-links {
-    display: none;
-  }
-
-  .nav-links.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 42px;
-    left: 0;
-    width: 100%;
-    border-bottom-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    background-color: var(--surface-color);
-    padding: 1rem 0 2rem 0;
-    box-shadow: 0 10px 15px var(--shadow-color);
-  }
-
-  .nav-links.active li {
-    margin: .5rem 2rem;
-    text-align: center;
-  }
 
   @media (max-width: 768px) {
 
@@ -761,6 +820,8 @@ p {
     .service-page {
       padding: 4rem .2rem .2rem .2rem;
     }
+
+
 
     .btn {
       padding: 0.7rem 1.4em;
@@ -801,7 +862,7 @@ p {
         padding: 4rem 1.5rem;
       }
 
-  
+
 
     }
 

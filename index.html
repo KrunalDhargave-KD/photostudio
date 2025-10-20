@@ -170,9 +170,9 @@
               alt="Studio Gear 4"></div>
         </div>
       </section>
-
-      <!-- <section id="owner" class="about-subsection owner-section">
-        <h3>Meet Our Team</h3>
+      
+      <section id="owner" class="about-subsection owner-section">
+        
         <div class="owner-content">
           <div class="owner-image">
             <img
@@ -181,8 +181,7 @@
           </div>
           
           <div class="owner-story">
-            <h3 class="owner-name"> Salman Khan </h3>
-            <p style="color: var(--accent-color); font-size: 1.25rem; font-weight: 700; margin: 0 auto; text-align: center;"> -Founder and CEO of </p>
+            <h3 class="owner-name"> Salman Khan <span style="font-size: 24px; margin: 8px;" ><sub>-owner</sub></span> </h3>
             <p>Hi, I'm Alex, the founder and lead photographer of this agency. My journey into photography started over
               a decade ago, driven by a passion for visual storytelling. After years of honing my craft, I decided to
               create a space where creativity and professionalism could come together to create stunning visual
@@ -191,43 +190,62 @@
               for all of our clients.</p>
           </div>
         </div>
-      </section> -->
+      </section>
 
     </section>
 
-    <section id="testimonials" class="testimonials-section">
+    <!-- <section id="testimonials" class="testimonials-section">
       <h2>Testimonials</h2>
       <section class="reviews-section">
         <h3>What Clients Say About Us</h3>
         <p>Real reviews from Google</p>
         <div class="reviews-grid">
-          <!-- Embed Review 1: Paste your first copied code here -->
           <div class="google-review">
-            <!-- Example placeholder; replace with actual Google embed code -->
-            <blockquote class="g-review" data-review-id="gp:AOzeeW..."> <!-- Shortened; use yours -->
+            
+            <blockquote class="g-review" data-review-id="gp:AOzeeW..."> 
               Loading review...
             </blockquote>
           </div>
 
-          <!-- Embed Review 2: Paste your second copied code here -->
           <div class="google-review">
             <blockquote class="g-review" data-review-id="gp:AnotherID...">
               Loading review...
             </blockquote>
           </div>
 
-          <!-- Add more as needed -->
         </div>
-      </section>
+      </section> -->
 
-      <!-- Google's Shared Script (load once at the bottom for all embeds) -->
-      <script src="https://apis.google.com/js/platform.js" async defer></script>
-      <script>
-        // Optional: Initialize if needed (Google handles auto-render)
-        gapi.load('rating', function () {
-          gapi.rating.render(document.querySelectorAll('.g-review'));
-        });
-      </script>
+    <section id="testimonials" class="testimonials-section">
+      <h2>Testimonials</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The team at this agency is incredibly talented. They captured our wedding day
+            perfectly. We couldn't be happier with the photos and video!"</p>
+          <p class="testimonial-author">- Sarah & Tom</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Professional, creative, and a pleasure to work with. They took our brand's
+            visuals to the next level. Highly recommended for any corporate project."</p>
+          <p class="testimonial-author">- John Doe, CEO of a Startup</p>
+        </div>
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The fashion shoot was a huge success. The photographers have a great eye for
+            detail and made everyone feel comfortable. The results were stunning."</p>
+          <p class="testimonial-author">- Jane Smith, Fashion Designer</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Google's Shared Script (load once at the bottom for all embeds) -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>
+      // Optional: Initialize if needed (Google handles auto-render)
+      gapi.load('rating', function () {
+        gapi.rating.render(document.querySelectorAll('.g-review'));
+      });
+    </script>
 
     </section>
   </main>
